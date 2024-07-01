@@ -42,6 +42,6 @@ public class Debouncer {
         listener.onDebounce();
     }
 }
-public interface OnDebounceListener {
+interface OnDebounceListener {
     void onDebounce();
 }
